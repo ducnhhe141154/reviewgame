@@ -1,0 +1,366 @@
+/*  */
+.video-display{
+height: 500px;
+}
+#div-content-second img{
+    margin: 300px 0 241px 50px;
+    width: 300px;
+    height: 320px;
+    float: left;
+}
+/*  */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#main{
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+    background-color: rgb(15, 15, 15);
+    color: whitesmoke;
+  }
+#header{
+    position: fixed;
+    width: 100%;
+    height: 65px;
+    background-color: black;
+    color: blanchedalmond;
+    top: 0;
+    z-index: 1;
+}
+#nav{
+    display: inline-block;
+}
+#nav>li{    
+    display: inline-block;
+}
+#nav>li>img{
+width: 200px;
+height: 60px;
+}
+#nav>li>a{
+    padding: 0 24px;
+    line-height: 65px;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#nav>li:hover .subnav{
+    display: block;
+}
+#nav>li:hover>a{
+    background-color: rgb(55, 235, 64);
+    color: black;
+}
+.subnav{
+    position: absolute;
+    list-style-type: none;
+    width: 169px;
+    height: 150px;
+    background-color: white;
+    color: black;
+    display: none;
+    box-shadow: 5px 10px 18px rgb(215, 200, 200);
+
+}
+.subnav>li{
+    padding: 15px;
+    cursor: pointer;
+}
+.subnav>li>a{
+    text-decoration: none;
+   
+}
+.subnav>li:hover{
+    background-color: rgb(255, 0, 43);
+}
+#search{
+    float: right;
+    padding:0 20px;
+    line-height: 35px;
+}
+#search>i{
+    margin-top: 5px;
+    font-size: 30px;
+    float: right;
+    line-height: 45px;
+}
+#search:hover{
+    color: rgb(43, 255, 0);
+    cursor: pointer;
+}
+#search:hover .div-search{
+    display:block;
+}
+.div-search{
+    height: 46px;
+    display: none;
+    margin-right: 55px;
+}
+.search-box{
+    background-color: black;
+    border: none;
+    border-bottom: 1px solid rgb(158, 151, 151);
+    color: white;
+}
+#slider{
+    position: relative;
+    width: 85%;
+    left: 7.25%;
+    margin-top: 110px;
+    padding-top: 40%;
+    background-image: url(https://wallpaperstock.net/wallpapers/thumbs1/18844.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 15px 10px 18px rgb(216, 200, 200);
+}
+.text-content{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    padding: 32px 16px;
+    bottom:0;
+    color: white;
+    display: none;
+}
+
+#content-first{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 800px;
+    padding:64px 16px;
+    overflow: hidden;
+
+}
+/* Demo 3D */
+    .text {
+        text-transform: uppercase;
+        font-family: verdana;
+        font-size: 3em;
+        font-weight: 700;
+        color: #f8f1f1;
+        text-shadow: 1px 1px 1px #6e6363,
+            1px 2px 1px #919191,
+            1px 3px 1px #919191,
+            1px 4px 1px #919191,
+            1px 5px 1px #919191,
+            1px 6px 1px #919191,
+            1px 7px 1px #919191,
+            1px 8px 1px #919191,
+            1px 9px 1px #919191,
+            1px 10px 1px #919191,
+        1px 18px 6px rgba(16,16,16,0.4),
+        1px 22px 10px rgba(16,16,16,0.2),
+        1px 25px 35px rgba(16,16,16,0.2),
+        1px 30px 60px rgba(16,16,16,0.4);
+    }
+/*  */
+.content-heading{
+    margin:10px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.content-slogan{
+    margin: 15px;
+    opacity: 0.7;
+    font-style: italic;
+}
+.main-content{
+    text-align: justify;
+    margin: 10px 0;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.menber-item{
+    float: left;
+    width: calc(100%/3);
+}
+.menber-item img{
+    width: 154px;
+    height: 154px;
+    border-radius: 5px;
+    margin-bottom: 16px;
+}
+.div-member-infor{
+margin: 32px 0;
+}
+.name-menbers{
+    margin: 15px 0;
+}
+#div-content-second{
+    text-align: center;
+    height: 841px;
+    background-color: black;
+    color: white;
+   
+}
+#content-second{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 64px 16px;
+    width: 800px;
+    height: 713px;
+}
+.month-ticket{
+    list-style-type: none;
+    width: 100%;
+    background-color: white;
+    color: black;
+    padding:8px 16px;
+    border: 1px solid black;
+    text-align: left;
+}
+.sout-out{
+    margin-left:8px;
+    text-transform: uppercase;
+    background-color: firebrick;
+    color: white;
+    padding: 8px;
+}
+.un-sout-out{
+    width: 25px;
+    height: 24px;
+    text-align: center;
+    float: right;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    margin-right: 16px;
+     line-height: 24px;
+
+}
+#buy-ticket{
+    width:100% ;
+    height: 420px;
+    padding: 32px 0;
+    overflow: hidden;
+}
+#buy-ticket .detail-ticket{
+float: left;
+
+}
+.detail-ticket{
+width: calc(100%/3);
+padding: 5px;
+}
+.detail-ticket img{
+    width: 100%;
+    height: 185px;
+}
+.infor-ticket{
+    width: 100%;
+    height: 202px;
+    background-color: white;
+    padding: 0.150px 16px;
+    color: black;
+    text-align: left;
+}
+.place{
+    font-weight: bold;
+    margin: 15px 0;
+}
+.date-ticket{
+    opacity: 0.7;
+    margin: 15px 0;
+}
+.content-ticket{
+    margin: 15px 0;
+}
+.btn-buy-ticket{
+    width: 117px;
+    height: 38px;
+    background-color: black;
+    color: white;
+    line-height: 38px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.detail-ticket img:hover{
+    opacity: 0.6;
+}
+#content-third{
+    width: 800px;
+    height: 457px;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(241, 228, 228);
+    overflow: hidden;
+    text-align: center;
+    padding: 64px 16px;
+}
+.icon{
+    width: 32px;
+    height: 18px;
+}
+#div-email{
+    width: 768px;
+    height: 222px;
+    padding: 32px 0;
+}
+.address-email{
+text-align: left;
+font-size: 20px;
+float: left;
+}
+.content-email{
+text-align: left;
+float: right;
+display: flex;
+}
+input{
+    padding: 8px;
+}
+
+.mess{
+width: 100%;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.btn-send{
+    width: 117px;
+    height: 38px;
+    background-color: black;
+    color: white;
+    line-height: 38px;
+    text-align: center; 
+    float: right;
+    margin: 20px 20px 0 0 ;
+
+
+}
+.btn-send:hover{
+    cursor: pointer;
+    box-shadow: 2px 5px 10px 10px rgb(247, 244, 244);
+
+}
+#content-forth{
+width: 100%;
+height: 733px;
+background-image: url(https://i.pinimg.com/originals/a8/8b/d9/a88bd9316a8a260cd1a9a08a41c7aa6d.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+#footer{
+height: 216px;
+text-align: center;
+padding: 64px 16px;
+font-size: 20px;
+opacity: 0.7;
+}
+#footer>i{
+    cursor: pointer;
+    letter-spacing: 5px;
+}
+.clear{
+    clear: both;
+}
