@@ -335,9 +335,9 @@ margin-bottom: 10px;
     background-color: black;
     color: white;
     line-height: 38px;
-    text-align: center; 
+    text-align: center;
     float: right;
-    margin: 20px 20px 0 0 ;
+    margin: 20px 20px 0 0;
 }
 .btn-send:hover{
     cursor: pointer;
