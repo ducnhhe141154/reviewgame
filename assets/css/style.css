@@ -39,16 +39,19 @@ html {
 #nav>li{    
     display: inline-block;
 }
-#nav>li>img{
+#nav>li>a>img{
 width: 200px;
 height: 60px;
 }
 #nav>li>a{
     padding: 0 24px;
     line-height: 65px;
-    display: block;
+    /* display:block; */
     text-decoration: none;
     text-transform: uppercase;
+}
+#nav>li:first-child a{
+    padding: 0;
 }
 #nav>li:hover .subnav{
     display: block;
@@ -335,8 +338,6 @@ margin-bottom: 10px;
     text-align: center; 
     float: right;
     margin: 20px 20px 0 0 ;
-
-
 }
 .btn-send:hover{
     cursor: pointer;
